@@ -58,6 +58,6 @@ In this project I'm going to apply **CRISP-DM**(CRoss Industry Standard Process)
 
 ## Results
 
-The main findings of the code can be found at the post available [here](https://medium.com/@lin.jiadan.1029/data-exploration-on-black-friday-dataset-from-kaggle-ea3f4b7a6798).
+The main findings of the code can be found at the post available [here]().
 
 
