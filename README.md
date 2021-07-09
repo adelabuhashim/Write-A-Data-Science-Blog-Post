@@ -4,27 +4,60 @@ First project in Data Scientist Nanodegree @Udacity
 
 
 
+## Installation
 
-# Key Steps for Project
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install libraries.
+
+```bash
+pip install pandas, sikitlearn, seaborn
+```
+1. Pandas.
+![](/Assists/pandas.png)
+2. Numpy.
+![](/Assists/numpy.png)
+3. Sikitleran.
+![](/Assists/sklearn.png)
+4. seaborn.
+![](/Assists/seaborn.svg)
+5. matplotlib.
+![](/Assists/matplot.svg)
+
+## Project Motivation
+
+**Data Science requires**
+- Curiosity.
+- Data.
+- Code.
+- Communication.
+- Deep Learning and Machine Learning.
+
+In this project I'm going to apply **CRISP-DM**(CRoss Industry Standard Process)  which contains 6 steps:
+
+1. Business Undestanding.
+2. Data Understanding.
+3. Preparing Data.
+4. Data Modeling.
+5. Evaluate Results.
+6. Deplyment.
+
+>In this project; I used  <a href="https://www.kaggle.com/airbnb/boston">Boston AirBNB Data from kaggle</a>.
+>This dataset can be used to understand how much AirBNB homes are earning in certain time frames. 
+
+***Quetions***
+1. Q1: What is the availabilitya and price ternd of homes in Boston?
+2. Q2: Which columns has effect on the price?
+3. Q3: Top Reviewers?
 
 
-Feel free to be creative with your solutions, but do follow the CRISP-DM process in finding your solutions.
+## Data files <a name="files"></a>
 
-## 1. Pick a dataset.
+- calendar.csv
+- listings
+- reviews
 
 
+## Results
 
-## 2) Pose at least three questions related to business or real-world applications of how the data could be used.
+The main findings of the code can be found at the post available [here](https://medium.com/@lin.jiadan.1029/data-exploration-on-black-friday-dataset-from-kaggle-ea3f4b7a6798).
 
-## 3) Create a Jupyter Notebook, using any associated packages you'd like, to:
-
-    - Prepare data:
-       * Gather necessary data to answer your questions
-       * Handle categorical and missing data
-       * Provide insight into the methods you chose and why you chose them
-
-    - Analyze, Model, and Visualize
-        * Provide a clear connection between your business questions and how the data answers them.
-
-## 4) Communicate your business insights.
 
