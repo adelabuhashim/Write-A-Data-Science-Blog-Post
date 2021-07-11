@@ -44,3 +44,14 @@ def df_shape(df):
     printing the shape of the dataframe
     """
     print('the df has {} rows and {} columns'.format(df.shape[0],df.shape[1]))
+    
+def get_reviewer_name(id, df ,id_col='reviewer_id', name_col='reviewer_name' ):
+    """
+    get reviewer name by his id
+    
+    args: id, original_df, id_columns, name_column
+    
+    return: reviwer name
+    """
+    name = df[df[id_col] == id][:1].reset_index()
+    return name[name_col][0]
